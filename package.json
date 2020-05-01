@@ -1,11 +1,9 @@
 {
   "name": "video-chat",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "publish": "now --prod"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +12,15 @@
     "express": "^4.17.1",
     "path": "^0.12.7",
     "socket.io": "^2.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franyerverjel/video-chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/franyerverjel/video-chat/issues"
+  },
+  "homepage": "https://github.com/franyerverjel/video-chat#readme",
+  "description": ""
 }
